@@ -8,7 +8,9 @@ console.log("---------------");
 console.log(myFriendName);
 console.log(myLocation);
 console.log(mySkill);
+
 console.log("---------------");
+
 console.log(typeof myFriendName);
 console.log(typeof myLocation);
 console.log(typeof mySkill);
@@ -21,6 +23,13 @@ console.log(isLaptop);
 console.log(isLogedIn);
 
 console.log("---------------");
+console.log("---------------");
+
+console.log("****************");
+console.log("****************");
+console.log("****************");
+console.log("****************");
+console.log("****************");
 // Keyword ====>> var --> Global & Functional 
 
 var cost = 349;
