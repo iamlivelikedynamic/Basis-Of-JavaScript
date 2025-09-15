@@ -30,6 +30,8 @@ console.log("****************");
 console.log("****************");
 console.log("****************");
 console.log("****************");
+console.log("\n");
+
 // Keyword ====>> var --> Global & Functional 
 
 var cost = 349;
@@ -37,13 +39,15 @@ var cost = 349;
 function Great(){
     var myTeacherName = "NITISH Sir";
     var myName = "Dhirendra Jha ";
-
+    
     console.log(myTeacherName);
 }
 Great();
 console.log(cost);
 console.log(myName);
 console.log("---------------");
+console.log("\n");
+
 
 
 // Var ==> REDECLARATION ALLOWED
@@ -54,6 +58,7 @@ var cost = 499;
 console.log(cost);
 console.log("---------------");
 console.log("****************");
+console.log("\n");
 
 // Var ====>> Reassignment Allowed;
 // memory declaration same hi rahega dono ka (myName) ka......
@@ -62,12 +67,14 @@ console.log(myName);
 console.log("---------------");
 myName = "Prashant Shekhar"
 console.log(myName);
+console.log("\n");
 
 console.log("****************");
 console.log("****************");
 console.log("****************");
 console.log("****************");
 console.log("****************");
+console.log("\n");
 
 // Let ====> Block Scope
 
@@ -75,24 +82,27 @@ console.log("****************");
     let price = 349;
     console.log(price);
 }
-console.log(price);   //ReferenceError: price is not defined.
+// console.log(price);   //ReferenceError: price is not defined.
 
+console.log("\n");
 console.log("****************");
 console.log("****************");
+console.log("\n");
 
 
 {
     // Let ==> REDECLARATION ALLOWED
-let cost = 349;
-console.log(cost);
-console.log("---------------");
-// let cost = 499;      // SyntaxError: Identifier 'cost' has already been declared
-console.log(cost);
-console.log("---------------");
-console.log("****************");
+    let cost = 349;
+    console.log(cost);
+    console.log("---------------");
+    // let cost = 499;      // SyntaxError: Identifier 'cost' has already been declared
+    console.log(cost);
+    console.log("---------------");
+    console.log("****************");
 }
 console.log("****************");
 console.log("****************");
+console.log("\n");
 
 
 {
